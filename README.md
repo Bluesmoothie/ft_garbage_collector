@@ -51,9 +51,9 @@ or
 
 ```gman_add_double(void **ptr)```
 
-for double pointer, the array need to be temrinated by NULL (like ft_split)
+for double pointer, the array need to be terminated by NULL (like ft_split)
 
-these function have the same protection as gmalloc so they call exit_func on error
+these functions have the same protection as gmalloc so they call exit_func on error
 
 these functions return the pointer so you can save space by using theme like this :
 
